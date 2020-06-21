@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/pages/index",
+    "pages/event/event",
+    "pages/mag/mag",
+    "pages/welcome/welcome",
+    "pages/change/change",
+    "pages/Details/Details",
+    "pages/songSheet/songSheet",
+    "pages/User/User"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#2E8B57",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "音乐盒子",
+    "backgroundColor": "#2E8B57",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "推荐",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home1.png"
+      },
+      {
+        "pagePath": "pages/event/event",
+        "text": "排行榜",
+        "iconPath": "images/msg.png",
+        "selectedIconPath":"images/msg1.png"
+      },
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "搜索",
+        "iconPath": "images/searchIcon.png",
+        "selectedIconPath":"images/searchIcon1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
